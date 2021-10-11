@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap');
+
+:root {
+    --font: 'Titillium Web', sans-serif;
+  }
+
+/* PAGE 1ST */
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+header{
+    background-color: #87509c;
+}
+
+nav{
+    padding-top: 60px;
+}
+
+nav ul {
+    float: right;
+    padding-top: 10px;
+  }
+  
+nav ul li {
+    display: inline;
+  }
+  
+nav ul li a {
+    font: 700 16px var(--font);
+    line-height: 18px;
+    color: #ffffff;
+    text-decoration: none !important;   /* islemir */
+    padding: 10px 10px;
+    margin-left: 30px;
+
+  }
+.container ul li{
+    list-style: none;
+    text-decoration: none;
+    float: right;
+    padding-right: 15px;
+    font-size: large;
+    margin:auto !important;
+    color: white;
+}
+
+.header-box{
+    padding-bottom: 100px;
+
+}
+
+.header-box h1{
+    box-sizing: border-box;
+    color: #fff;
+    font: bold 42px var(--font);
+    line-height: 49px;
+    color: #f7f3ea;
+    text-align: center;
+    margin-top: 140px !important;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+.btn{
+    display: block;
+    margin: auto;
+    font: 600 18px var(--font);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    padding: 25px 80px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    background-color: #eb7d4b;
+    border-bottom: 4px solid #c86a40;
+}
+
+
+/* PAGE 2ND */
+
+.main{
+    background-color: #17c2a4;
+    margin: auto;
+    height: 650px;
+}
+
+
+.main h1{
+    padding-top: 70px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.main h4{
+color: #fff;
+width: 700px;
+font: 400 18px var(--font);
+letter-spacing: 0px;
+line-height: 26px;
+text-align: center;
+margin: auto !important;
+padding-top: 70px;
+}
+
+
+hr{
+    width: 100px;
+    height: 3px;
+    background-color: rgb(218, 218, 218);
+    margin: auto !important;
+    border: none;
+}
+
+.middle{
+    margin-top: 10px;
+    margin-left: 250px;
+    height: 150px;
+    padding: 0;
+}
+
+#middle-img img{
+    padding: 10px !important;
+    margin: 25px;
+}
+
+#middle-img p{
+    font: 400 18px var(--font);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#middle-img{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+
+}
+
+/* PAGE 3RD */
+
+.main-two{
+    background-color: #e7f1f8;
+    margin: auto;
+    height: 650px;
+
+
+}
+
+.main-two h1{
+    font: 700 41px var(--font);
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #3c4761;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.main-two p{
+    font: 400 18px var(--font);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3c4761;
+    text-align: center;
+    margin: auto;
+    width: 700px;
+    margin-bottom: 30px;
+
+}
+ .main-users{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 140px;
+    width: 1000px;
+    height: 450px;
+    padding: 0;  
+}
+
+.users{
+    background: #878787;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin:0 40px !important;
+    margin: auto;
+    box-sizing: border-box;
+    align-items: center;
+    float: right;
+
+}
+
+#capital{
+    padding-top: 10px !important;  /* islemir */
+    font: 700 24px var(--font);
+    color: #3e4443;
+    text-align: center;
+}
+
+#jobs{
+    font: 400 16px var(--font);
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #30bae7;
+    text-align: center;
+}
+
+#text{
+    font: 300 16px var(--font);
+    width: 204px;
+    height: 192px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #3c4761;
+    text-align: center;
+}
+
+.social a{
+      background-color: #bdd1df;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      position: relative;
+      float: right;
+      margin-right: 15px;
+}
+
+.social i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #fff !important;
+    text-align: center;
+
+}
+
+/* PAGE 4TH */
+.main-three{
+    margin: auto;
+    height: 650px;
+}
+
+.main-three h1{
+    font: 700 40px var(--font);
+    margin-top: 70px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #3c4761;
+    text-align: center;
+}
+
+.main-three p{
+    font: 400 18px var(--font);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3c4761;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main-three table img{ 
+    margin-top: 60px;
+    margin-left: 130px;
+
+}
+
+#caption{
+    font: 700 24px var(--font);
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #3c4761;
+}
+
+#caption td{
+    padding-left: 130px;
+    padding-top: 40px;
+}
+
+/* PAGE 5TH */
+
+.main-four{
+    margin: auto;
+    height: 1000px;
+    background-color: #ffdd99;
+}
+
+.main-four h1{
+    font: 700 40px var(--font);
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #393939;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.main-four p{
+    font: 400 18px var(--font);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #393939;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.main-four table button{       
+    background-color: #ebc985;
+    align-items: center;
+    border: none;
+}
+
+.main-four table a{
+   text-decoration: none;
+   font: 400 19px var(--font);
+   letter-spacing: 0px;
+   line-height: 20px;
+   color: #393939;
+   background-color: #ebc985;
+}
+
+.main-four table a:hover{
+    background-color: #fff;  
+}
+
+#table{
+    margin: 0 50px;
+}
+
+.main-four table img{
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#more{
+    width: 293px;
+    height: 70px;
+    border: none;
+    border-radius: 4px;
+    background-color: #17c2a4;
+    font: 600 18px var(--font);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-left: 500px;
+    margin-top: 50px;
+    
+}
